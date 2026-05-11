@@ -1,11 +1,6 @@
 User-agent: *
 Allow: /
 Disallow: /dashboard
-Disallow: /admin
 Disallow: /api/
-Disallow: /*.json$
-
-# Crawl-delay for polite bots
-Crawl-delay: 10
 
 Sitemap: https://trustseal.asquaresolution.com/sitemap.xml

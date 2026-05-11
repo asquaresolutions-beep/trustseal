@@ -1,36 +1,19 @@
 {
-  "name": "TrustSeal — Website Trust Verification",
+  "name": "TrustSeal - AI Fact Checker",
   "short_name": "TrustSeal",
-  "description": "Free AI tool to verify website trust, business legitimacy and fact-check news claims. Get a verified digital trust badge for India.",
+  "description": "Free AI fact-checker for India. Verify WhatsApp forwards, news claims & viral content in 10 seconds.",
   "start_url": "/",
-  "scope": "/",
   "display": "standalone",
   "background_color": "#0f0f17",
   "theme_color": "#6366f1",
   "orientation": "portrait-primary",
-  "lang": "en-IN",
-  "dir": "ltr",
   "icons": [
-    { "src": "/shield.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
-    { "src": "/shield.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
   ],
-  "categories": ["utilities", "security", "productivity", "business"],
-  "shortcuts": [
-    {
-      "name": "Verify a Website",
-      "short_name": "Verify",
-      "description": "Check if a website is legitimate or fake",
-      "url": "/?action=verify",
-      "icons": [{ "src": "/shield.svg", "sizes": "any" }]
-    },
-    {
-      "name": "Fact-Check a Claim",
-      "short_name": "Fact Check",
-      "description": "Paste a news claim or WhatsApp forward to verify",
-      "url": "/?action=factcheck",
-      "icons": [{ "src": "/shield.svg", "sizes": "any" }]
-    }
-  ],
+  "categories": ["news", "utilities", "productivity"],
+  "lang": "en",
+  "dir": "ltr",
   "screenshots": [],
   "related_applications": [],
   "prefer_related_applications": false
