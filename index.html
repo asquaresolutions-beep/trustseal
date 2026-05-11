@@ -51,6 +51,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
 
+    <!-- SPA routing restore — reads path stored by 404.html redirect -->
+    <script>
+      (function() {
+        var r = sessionStorage.getItem('spa_redirect')
+        if (r) { sessionStorage.removeItem('spa_redirect'); history.replaceState(null, null, r) }
+      })()
+    </script>
+
     <!-- Google Analytics 4 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-MPQVF41ZYM"></script>
     <script>
@@ -199,7 +207,7 @@
       ]
     }
     </script>
-    <script type="module" crossorigin src="/assets/index-CChkeQNx.js"></script>
+    <script type="module" crossorigin src="/assets/index-mRZcR5pG.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-CyIC9hTJ.css">
   </head>
   <body>
