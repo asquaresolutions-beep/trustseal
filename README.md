@@ -23,7 +23,7 @@ TrustSeal uses Google Gemini AI to cross-reference websites against SSL data, do
 | Layer | Technology |
 |-------|------------|
 | Frontend | React 18, Vite, Tailwind CSS |
-| AI | Google Gemini 1.5 Flash via Cloud Functions |
+| AI | Google Gemini 2.5 Flash via Cloud Functions |
 | Auth | Firebase Authentication (Google OAuth + Email) |
 | Database | Firestore |
 | Analytics | GA4 + Firebase Analytics |
@@ -60,7 +60,7 @@ TrustSeal uses Google Gemini AI to cross-reference websites against SSL data, do
 
 ## AI Usage
 
-TrustSeal uses **Google Gemini 1.5 Flash** for:
+TrustSeal uses **Google Gemini 2.5 Flash** for:
 - Domain and SSL certificate analysis
 - Business registry cross-referencing
 - News claim verification against authoritative sources
