@@ -14,7 +14,7 @@ TrustSeal uses Google Gemini AI to cross-reference websites against SSL data, do
 - **Business legitimacy checker** — verify if an online business is real or fake
 - **AI fact-checker** — paste any news headline, WhatsApp forward, or claim for instant verification
 - **Digital trust badge** — verified businesses get an embeddable trust seal for their site
-- **Hindi & English support** — bilingual UI and AI responses for Indian users
+- **Multilingual AI support** — bilingual UI and AI responses for Indian users
 - **Daily free checks** — 3 checks/day without account
 - **PWA-ready** — installable on Android and iOS
 
