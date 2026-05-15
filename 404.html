@@ -1,15 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-IN">
 <head>
-  <meta charset="utf-8">
-  <title>TrustSeal</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TrustSeal — AI Website Trust Verification by A Square Solutions</title>
+  <meta name="description" content="TrustSeal: AI-powered website trust verification and fact-checking. Verify business legitimacy, check if a website is real, and fact-check claims worldwide." />
+  <meta name="robots" content="index, follow" />
+
+  <!-- SPA GitHub Pages redirect — stores the current path and restores it after root load -->
   <script>
-    // SPA GitHub Pages redirect — stores the current path and redirects to root
-    // The main index.html will read sessionStorage and restore the URL
-    var path = location.pathname + location.search + location.hash
-    sessionStorage.setItem('spa_redirect', path)
-    location.replace('/')
+    (function() {
+      var path = location.pathname + location.search + location.hash;
+      sessionStorage.setItem('spa_redirect', path);
+      location.replace('/');
+    })();
   </script>
 </head>
-<body></body>
+<body>
+  <noscript>
+    <h1>TrustSeal — AI Website Trust Verification</h1>
+    <p>Verify any website's authenticity, check business legitimacy, and fact-check claims with AI. Free to use. No login needed.</p>
+    <p>Built by <a href="https://asquaresolution.com">A Square Solutions</a> — AI &amp; Digital Marketing agency.</p>
+    <ul>
+      <li><a href="https://trustseal.asquaresolution.com/">Home</a></li>
+      <li><a href="https://trustseal.asquaresolution.com/pricing">Pricing</a></li>
+      <li><a href="https://trustseal.asquaresolution.com/faq">FAQ</a></li>
+      <li><a href="https://trustseal.asquaresolution.com/about">About</a></li>
+      <li><a href="https://trustseal.asquaresolution.com/contact">Contact</a></li>
+    </ul>
+  </noscript>
+</body>
 </html>
