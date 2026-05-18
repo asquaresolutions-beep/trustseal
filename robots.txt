@@ -1,6 +1,9 @@
 User-agent: *
 Allow: /
 Disallow: /dashboard
-Disallow: /api/
+Disallow: /admin
+Disallow: /login
+Disallow: /signup
+Disallow: /result/
 
 Sitemap: https://trustseal.asquaresolution.com/sitemap.xml
