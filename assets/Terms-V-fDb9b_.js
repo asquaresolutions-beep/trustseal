@@ -1,4 +1,4 @@
-import{c as a,j as e}from"./index-ClILfKmq.js";import{L as s}from"./vendor-react-0TAojWO7.js";import{S as r}from"./vendor-ui-CyNrSbEP.js";import"./vendor-firebase-VT3cWjGA.js";const o=[{title:"1. Acceptance of Terms",content:`By accessing or using TrustSeal (trustseal.asquaresolution.com), you agree to be bound by these Terms of Service and our Privacy Policy. If you do not agree, please do not use the service.
+import{d as a,j as e}from"./index-BiMVshh2.js";import{L as s}from"./vendor-react-0TAojWO7.js";import{S as r}from"./vendor-ui-CyNrSbEP.js";import"./vendor-firebase-Da8dg210.js";const o=[{title:"1. Acceptance of Terms",content:`By accessing or using TrustSeal (trustseal.asquaresolution.com), you agree to be bound by these Terms of Service and our Privacy Policy. If you do not agree, please do not use the service.
 
 These terms are governed by the laws of India. TrustSeal is operated by A Square Solutions (contact@asquaresolution.com).`},{title:"2. Description of Service",content:`TrustSeal is an AI-powered tool that provides:
 • Website trust verification (assessing domain safety, business legitimacy, and trustworthiness)
