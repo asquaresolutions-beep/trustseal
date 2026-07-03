@@ -6,6 +6,8 @@ TrustSeal uses Google Gemini AI to cross-reference websites against SSL data, do
 
 **Live app:** https://trustseal.asquaresolution.com
 
+> **Heads up:** The **production** TrustSeal now runs on the [AI Execution Lab platform](https://github.com/asquaresolutions-beep/ai-execution-lab) (Next.js) and is positioned as **business trust verification** — trust scores, verifiable badges, certificates, and a public Trust API. This repository holds the earlier standalone **React + Vite** build.
+
 ---
 
 ## Features
